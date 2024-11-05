@@ -14,6 +14,11 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 }
 
 nav {
@@ -65,16 +70,7 @@ form {
     margin: 0 auto;
 }
 
-/* Header */
-header {
-    display: flex;
-    justify-content: center; /* Center-align content */
-    align-items: center;
-    flex-direction: column; /* Stack logo and nav vertically */
-    background: linear-gradient(135deg, #ff6347, #ffbb99);
-    padding: 1.5rem;
-    color: #fff;
-}
+
 
 header .logo img {
     width: 50px;
